@@ -16,8 +16,8 @@ def generate_problem():
     answer = eval(expr)
     return expr, answer
 
-expr, answer = generate_problem()
-print(expr, answer)
+    expr, answer = generate_problem()
+    print(expr, answer)
 
 for i in range(TOTAL_PROBLEMS):
     expr, answer = generate_problem()
