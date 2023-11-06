@@ -21,6 +21,8 @@ print(expr, answer)
 
 for i in range(TOTAL_PROBLEMS):
     expr, answer = generate_problem()
+    while True:
+        guess = input("Problem #" + str(i + 1) + ": " + expr + " = ")
     print(expr, answer)
     user_answer = int(input('What is the answer? '))
     if user_answer == answer:
