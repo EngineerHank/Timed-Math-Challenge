@@ -3,6 +3,8 @@ import random
 OPERATORS = ['+', '-', '*', '/']
 MIN_OPERAND = 2
 MAX_OPERAND = 15
+TOTAL_PROBLEMS = 10
+
 
 def generate_problem():
     left = random.randint(MIN_OPERAND, MAX_OPERAND)
@@ -15,4 +17,13 @@ def generate_problem():
     return expr, answer
 
 expr, answer = generate_problem()
-print (expr, answer)
+print(expr, answer)
+
+for i in range(TOTAL_PROBLEMS):
+    expr, answer = generate_problem()
+    print(expr, answer)
+    user_answer = int(input('What is the answer? '))
+    if user_answer == answer:
+        print('Correct!')
+    else:
+        print('Incorrect! The answer is', answer)
