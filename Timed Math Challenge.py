@@ -15,3 +15,4 @@ def generate_problem():
     return expr, answer
 
 expr, answer = generate_problem()
+print (expr, answer)
