@@ -10,3 +10,5 @@ def generate_problem():
     operator = random.choice(OPERATORS)
 
     expr = str (left) + ' ' + operator + ' ' + str(right)
+    print (expr)
+    return expr
