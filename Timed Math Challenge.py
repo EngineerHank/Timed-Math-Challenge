@@ -27,8 +27,8 @@ for i in range(TOTAL_PROBLEMS):
             print("Correct!")
             break
     print(expr, answer)
-    user_answer = int(input('What is the answer? '))
-    if user_answer == answer:
-        print('Correct!')
-    else:
-        print('Incorrect! The answer is', answer)
+    # user_answer = int(input('What is the answer? '))
+    # if user_answer == answer:
+    #     print('Correct!')
+    # else:
+    #     print('Incorrect! The answer is', answer)
