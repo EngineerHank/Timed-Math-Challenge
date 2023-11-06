@@ -1,6 +1,6 @@
 import random
 
-OPERATORS = ['+', '-', '*', '/']
+OPERATORS = ['+', '-', '*', ] # '/'
 MIN_OPERAND = 2
 MAX_OPERAND = 15
 TOTAL_PROBLEMS = 10
