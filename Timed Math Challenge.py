@@ -12,3 +12,5 @@ def generate_problem():
     expr = str (left) + ' ' + operator + ' ' + str(right)
     print (expr)
     return expr
+
+generate_problem()
