@@ -22,7 +22,7 @@ def generate_problem():
 
 wrong = 0
 input('Press enter to start: ')
-print('Starting in...')
+print('Start...........')
 start_time = time.time()  # get the current time
 
 for i in range(TOTAL_PROBLEMS):
