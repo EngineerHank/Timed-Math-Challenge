@@ -12,7 +12,7 @@ def generate_problem():
     right = random.randint(MIN_OPERAND, MAX_OPERAND)
     operator = random.choice(OPERATORS)
 
-    expr = str (left) + ' ' + operator + ' ' + str(right)
+    expr = str (left) + ' ' + operator + ' ' + str(right) 
     # print (expr)
     answer = eval(expr)
     return expr, answer
